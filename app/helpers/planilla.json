@@ -1,0 +1,18 @@
+{
+  "planilla": [
+    {
+      "id": 1,
+      "nombre": "Juan Manuel Izaguirre Mérida",
+      "puesto": "Alcalde",
+      "edad": "40 años",
+      "fotografia": "app/assets/img/planilla/juan-manuel.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Williams Antonio Tarash Bonilla",
+      "puesto": "Concejal 1",
+      "edad": "40 años",
+      "fotografia": "app/assets/img/planilla/juan-manuel.jpg"
+    }
+  ]
+}

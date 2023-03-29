@@ -1,0 +1,16 @@
+{
+  "proyectos": {
+    "educacion": [
+      {
+        "id": 1,
+        "titulo": "Apoyo Estudiantil",
+        "descripcion": "Apoyar a los estudiantes de escasos recursos económicos para la gestión y creación de becas. (de primaria, básico y diversificado). ",
+        "fotografia": "app/assets/img/proyectos/"
+      }
+    ],
+    "salud": [],
+    "infraestructura": [],
+    "desarrollo-economico": [],
+    "cultura-deportes": []
+  }
+}

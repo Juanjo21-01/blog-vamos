@@ -1,0 +1,19 @@
+{
+  "informacion": {
+    "titulo": "VAMOS por un mejor San José El Rodeo",
+    "slogan": "SOY DE AQUÍ, ESTOY AQUÍ Y TRABAJARÉ POR TI",
+    "leyenda": "100% RODEENSE",
+    "valores": [
+      {
+        "id": 1,
+        "nombre": "humildad",
+        "descripcion": "Trabajaremos con humildad"
+      },
+      {
+        "id": 2,
+        "nombre": "honestidad",
+        "descripcion": "Trabajaremos con honestidad"
+      }
+    ]
+  }
+}
