@@ -5,7 +5,8 @@
       "nombre": "Juan Manuel Izaguirre Mérida",
       "puesto": "Alcalde",
       "edad": "40 años",
-      "fotografia": "app/assets/img/planilla/juan-manuel.jpg"
+      "fotografia": "app/assets/img/planilla/juan-manuel.jpg",
+      "biografia": "100% RODEENSE"
     },
     {
       "id": 2,
