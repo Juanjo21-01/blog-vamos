@@ -1,11 +1,18 @@
-export function PlanillaTarjeta(prop) {
-  let { fotografia, nombre, puesto } = propiedades;
+export function PlanillaTarjeta(propiedades) {
+  let { id, fotografia, nombre, puesto } = propiedades;
+
+  document.addEventListener('click', (e) => {
+    if (!e.target.matches('.container a')) return false;
+
+    localStorage.setItem('postId', e.target.dataset.id);
+  });
+
   return `
-  <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-        <h2 class="fw-normal">Heading</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+  <div class="col-lg-4 col-md-6">
+        <img class="rounded-circle" width="140" height="140" src="${fotografia}" role="img" aria-label="Placeholder">
+        <h2 class="fw-normal">${puesto}</h2>
+        <p>${nombre}</p>
+        <p><a class="btn btn-primary" href="#${id}" data-id=${id}>Ver más información » </a></p>
       </div>
   
     `;

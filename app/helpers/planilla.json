@@ -1,19 +1,50 @@
-{
-  "planilla": [
-    {
-      "id": 1,
-      "nombre": "Juan Manuel Izaguirre Mérida",
-      "puesto": "Alcalde",
-      "edad": "40 años",
-      "fotografia": "app/assets/img/planilla/juan-manuel.jpg",
-      "biografia": "100% RODEENSE"
-    },
-    {
-      "id": 2,
-      "nombre": "Williams Antonio Tarash Bonilla",
-      "puesto": "Concejal 1",
-      "edad": "40 años",
-      "fotografia": "app/assets/img/planilla/juan-manuel.jpg"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "nombre": "Juan Manuel Izaguirre Mérida",
+    "puesto": "Alcalde",
+    "edad": "40 años",
+    "fotografia": "app/assets/img/planilla/juan-manuel.jpg",
+    "biografia": "100% RODEENSE"
+  },
+  {
+    "id": 2,
+    "nombre": "Williams Antonio Tarash Bonilla",
+    "puesto": "Concejal 1",
+    "edad": "40 años",
+    "fotografia": "app/assets/img/planilla/juan-manuel.jpg",
+    "biografia": "100% RODEENSE"
+  },
+  {
+    "id": 3,
+    "nombre": "Williams Antonio Tarash Bonilla",
+    "puesto": "Concejal 2",
+    "edad": "40 años",
+    "fotografia": "app/assets/img/planilla/juan-manuel.jpg",
+    "biografia": "100% RODEENSE"
+  },
+  {
+    "id": 4,
+    "nombre": "Williams Antonio Tarash Bonilla",
+    "puesto": "Concejal 1",
+    "edad": "40 años",
+    "fotografia": "app/assets/img/planilla/juan-manuel.jpg",
+    "biografia": "100% RODEENSE"
+  },
+  {
+    "id": 5,
+    "nombre": "Williams Antonio Tarash Bonilla",
+    "puesto": "Concejal 1",
+    "edad": "40 años",
+    "fotografia": "app/assets/img/planilla/juan-manuel.jpg",
+    "biografia": "100% RODEENSE"
+  },
+  {
+    "id": 6,
+    "nombre": "Williams Antonio Tarash Bonilla",
+    "puesto": "Concejal 1",
+    "edad": "40 años",
+    "fotografia": "app/assets/img/planilla/juan-manuel.jpg",
+    "biografia": "100% RODEENSE"
+  }
+]

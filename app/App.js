@@ -13,13 +13,12 @@ export function App() {
   $root.appendChild(Main());
   $root.appendChild(Footer());
   //   $root.appendChild(Loader());
-  console.log();
   //
   Router();
 
   //
 
-  fetch('app/helpers/planilla.json')
+  /* fetch('app/helpers/proyectos.json')
     .then((res) => (res.ok ? res.json() : Promise.reject(res)))
     .then((json) => console.log(json))
     .catch((err) => {
@@ -31,5 +30,5 @@ export function App() {
         </div>`;
       document.querySelector('.loader').style.display = 'none';
       console.log(err);
-    });
+    }); */
 }

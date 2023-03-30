@@ -11,7 +11,7 @@ export async function ajax(parametros) {
         <div class="error">
             <p>Error ${err.status}: ${message}</p>
         </div>`;
-      document.querySelector('.loader').style.display = 'none';
+      // document.querySelector('.loader').style.display = 'none';
       console.log(err);
     });
 }

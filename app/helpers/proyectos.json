@@ -1,5 +1,5 @@
-{
-  "proyectos": {
+[
+  {
     "educacion": [
       {
         "id": 1,
@@ -13,4 +13,4 @@
     "desarrollo-economico": [],
     "cultura-deportes": []
   }
-}
+]
