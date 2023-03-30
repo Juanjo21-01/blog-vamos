@@ -1,3 +1,9 @@
-main{
-    background: linear-gradient(to right, #f1f2b5, #135058);
+main {
+    background: url("/app/assets/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.letra {
+    font-family: 'Dancing Script', cursive;
 }

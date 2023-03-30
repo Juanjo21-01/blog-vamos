@@ -6,7 +6,7 @@ export function Header() {
   $header.innerHTML = `
    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#/">Inicio</a>
+            <a class="navbar-brand btn btn-outline-primary btn-danger border-0" href="#/">Inicio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
                 aria-controls="offcanvasNavbar2">
                 <span class="navbar-toggler-icon"></span>
@@ -20,13 +20,13 @@ export function Header() {
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item"> <a class="nav-link " aria-current="page"
+                        <li class="nav-item"> <a class="text-light btn btn-outline-danger btn-primary border-0 mx-1 mt-1" aria-current="page"
                                 href="#/proyectos">Proyectos</a> </li>
-                        <li class="nav-item"> <a class="nav-link " aria-current="page"
+                        <li class="nav-item"> <a class="text-light btn btn-outline-danger btn-primary border-0 mx-1 mt-1" aria-current="page"
                                 href="#/planilla">Planilla</a> </li>
-                        <li class="nav-item"> <a class="nav-link " aria-current="page"
+                        <li class="nav-item"> <a class="text-light btn btn-outline-danger btn-primary border-0 mx-1 mt-1" aria-current="page"
                                 href="https://www.facebook.com/profile.php?id=100084051139965" target="_blank" rel="noopener">Facebook</a> </li>
-                        <li class="nav-item"> <a class="nav-link " aria-current="page"
+                        <li class="nav-item"> <a class="text-light btn btn-outline-danger btn-primary border-0 mx-1 mt-1" aria-current="page"
                                 href="#/sugerencias">Sugerencias</a> </li>
                         </li>
                     </ul>

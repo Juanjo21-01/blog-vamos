@@ -2,6 +2,7 @@ import api from '../helpers/api.js';
 import { ajax } from '../helpers/ajax.js';
 import { PlanillaTarjeta } from './main/PlanillaTarjeta.js';
 import { Posts } from './main/Posts.js';
+import { Home } from './main/Home.js';
 export async function Router() {
   const d = document,
     $main = d.getElementById('main');
@@ -12,11 +13,10 @@ export async function Router() {
   $main.innerHTML = null;
 
   if (!hash || hash === '#/') {
-    $main.innerHTML = `<h2>Contenido del Inicio </h2>`;
+    $main.innerHTML = Home();
   } else if (hash === '#/proyectos') {
     $main.innerHTML = `<h2>Contenido de los Proyectos </h2>`;
   } else if (hash === '#/planilla') {
-    $main.innerHTML = `<h2>Contenido de la Planilla </h2>`;
     await ajax({
       url: api.PLANILLA,
       cbSuccess: (posts) => {
@@ -26,6 +26,7 @@ export async function Router() {
         let container = `
         <div class="container marketing">
           <div class="row p-3 text-center">
+          <h1 class="letra fw-bold m-2">Nuestros Integrantes de la Planilla</h1>
             ${html}
           </div>
         </div>
@@ -38,7 +39,7 @@ export async function Router() {
   } else {
     $main.innerHTML = `<h2>Informacion de los Posts </h2>`;
     await ajax({
-      url: `${api.PLANILLA}`,
+      url: api.PLANILLA,
       cbSuccess: (post) => {
         let postId = localStorage.getItem('postId');
         post.forEach((el) => {
