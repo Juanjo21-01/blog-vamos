@@ -11,39 +11,71 @@
     "id": 2,
     "nombre": "Williams Antonio Tarash Bonilla",
     "puesto": "Concejal 1",
-    "edad": "40 años",
+    "edad": "30 años",
     "fotografia": "app/assets/img/planilla/juan-manuel.jpg",
     "biografia": "100% RODEENSE"
   },
   {
     "id": 3,
-    "nombre": "Williams Antonio Tarash Bonilla",
+    "nombre": "Henry Leonel Bautista Barrios",
     "puesto": "Concejal 2",
-    "edad": "40 años",
+    "edad": "34 años",
     "fotografia": "app/assets/img/planilla/juan-manuel.jpg",
     "biografia": "100% RODEENSE"
   },
   {
     "id": 4,
-    "nombre": "Williams Antonio Tarash Bonilla",
-    "puesto": "Concejal 1",
-    "edad": "40 años",
+    "nombre": "Cristian Rocael Sánchez Barrios",
+    "puesto": "Concejal 3",
+    "edad": "28 años",
     "fotografia": "app/assets/img/planilla/juan-manuel.jpg",
     "biografia": "100% RODEENSE"
   },
   {
     "id": 5,
-    "nombre": "Williams Antonio Tarash Bonilla",
-    "puesto": "Concejal 1",
-    "edad": "40 años",
+    "nombre": "Osman Arturo Bravo Cardona",
+    "puesto": "Concejal 4",
+    "edad": "48 años",
     "fotografia": "app/assets/img/planilla/juan-manuel.jpg",
     "biografia": "100% RODEENSE"
   },
   {
     "id": 6,
-    "nombre": "Williams Antonio Tarash Bonilla",
-    "puesto": "Concejal 1",
-    "edad": "40 años",
+    "nombre": "Federico Antonio Mérida Aguilar",
+    "puesto": "Síndico 1",
+    "edad": "54 años",
+    "fotografia": "app/assets/img/planilla/juan-manuel.jpg",
+    "biografia": "100% RODEENSE"
+  },
+  {
+    "id": 7,
+    "nombre": "Eyolqui Donaldo Fuentes Pérez",
+    "puesto": "Síndico 2",
+    "edad": "45 años",
+    "fotografia": "app/assets/img/planilla/juan-manuel.jpg",
+    "biografia": "100% RODEENSE"
+  },
+  {
+    "id": 8,
+    "nombre": "Silas Mardoqueo Zacarías Ramirez",
+    "puesto": "Concejal 1 (Suplente)",
+    "edad": "31 años",
+    "fotografia": "app/assets/img/planilla/juan-manuel.jpg",
+    "biografia": "100% RODEENSE"
+  },
+  {
+    "id": 9,
+    "nombre": "Ailin Dulany Zacarías Castrillo",
+    "puesto": "Concejal 2 (Suplente)",
+    "edad": "26 años",
+    "fotografia": "app/assets/img/planilla/juan-manuel.jpg",
+    "biografia": "100% RODEENSE"
+  },
+  {
+    "id": 10,
+    "nombre": "Miguel Angel Jerónimo Mazariegos",
+    "puesto": "Síndico 1 (Suplente)",
+    "edad": "25 años",
     "fotografia": "app/assets/img/planilla/juan-manuel.jpg",
     "biografia": "100% RODEENSE"
   }

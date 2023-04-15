@@ -8,10 +8,10 @@ export function PlanillaTarjeta(propiedades) {
   });
 
   return `
-  <div class="col-lg-4 col-md-6">
+  <div class="col-lg-4 col-md-6 pb-2">
         <img class="rounded-circle" width="140" height="140" src="${fotografia}" role="img" aria-label="Placeholder">
-        <h2 class="fw-normal">${puesto}</h2>
-        <p>${nombre}</p>
+        <h2 class="fw-normal letra">${puesto}</h2>
+        <p class="fw-bold text-primary-emphasis">${nombre}</p>
         <p><a class="btn btn-danger btn-outline-primary border-0 text-light" href="#${id}" data-id=${id}>Ver más información » </a></p>
       </div>
   

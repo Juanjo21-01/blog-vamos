@@ -3,6 +3,7 @@ import { ajax } from '../helpers/ajax.js';
 import { PlanillaTarjeta } from './main/PlanillaTarjeta.js';
 import { Posts } from './main/Posts.js';
 import { Home } from './main/Home.js';
+import { ProyectoTarjeta } from './main/ProyectoTarjeta.js';
 export async function Router() {
   const d = document,
     $main = d.getElementById('main');
@@ -15,17 +16,58 @@ export async function Router() {
   if (!hash || hash === '#/') {
     $main.innerHTML = Home();
   } else if (hash === '#/proyectos') {
-    $main.innerHTML = `<h2>Contenido de los Proyectos </h2>`;
+    await ajax({
+      url: api.PROYECTOS,
+      cbSuccess: (posts) => {
+        let edu = '',
+          sa = '',
+          inf = '',
+          des = '',
+          cul = '';
+        // console.log(posts);
+        posts.educacion.forEach((post) => (edu += ProyectoTarjeta(post)));
+        posts.salud.forEach((post) => (sa += ProyectoTarjeta(post)));
+        posts.infraestructura.forEach((post) => (inf += ProyectoTarjeta(post)));
+        posts.desarrollo.forEach((post) => (des += ProyectoTarjeta(post)));
+        posts.cultura.forEach((post) => (cul += ProyectoTarjeta(post)));
+
+        let container = `
+        <div class="container p-3 text-center">
+          <h1 class="letra fw-bold m-2">Proyectos para Nuestro Pueblo</h1>
+          <h2 class="letra fw-bold m-3">Educación</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 align-items-center justify-content-around">
+            ${edu}
+          </div>
+          <h2 class="letra fw-bold m-3">Salud</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 justify-content-around">
+            ${sa}
+          </div>
+          <h2 class="letra fw-bold m-3">Infraestructura</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 align-items-center justify-content-around">
+            ${inf}
+          </div>
+           <h2 class="letra fw-bold m-3">Desarrollo Económico</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 align-items-center justify-content-around">
+            ${des}
+          </div>
+           <h2 class="letra fw-bold m-3">Cultura y Deportes</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 justify-content-around">
+            ${cul}
+          </div>
+        </div>
+        `;
+        $main.innerHTML = container;
+      },
+    });
   } else if (hash === '#/planilla') {
     await ajax({
       url: api.PLANILLA,
       cbSuccess: (posts) => {
         let html = '';
-        // console.log(posts);
         posts.forEach((post) => (html += PlanillaTarjeta(post)));
         let container = `
         <div class="container marketing">
-          <div class="row p-3 text-center">
+          <div class="row p-3 text-center justify-content-around">
           <h1 class="letra fw-bold m-2">Nuestros Integrantes de la Planilla</h1>
             ${html}
           </div>

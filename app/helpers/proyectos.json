@@ -1,16 +1,126 @@
-[
-  {
-    "educacion": [
-      {
-        "id": 1,
-        "titulo": "Apoyo Estudiantil",
-        "descripcion": "Apoyar a los estudiantes de escasos recursos económicos para la gestión y creación de becas. (de primaria, básico y diversificado). ",
-        "fotografia": "app/assets/img/proyectos/"
-      }
-    ],
-    "salud": [],
-    "infraestructura": [],
-    "desarrollo-economico": [],
-    "cultura-deportes": []
-  }
-]
+{
+  "educacion": [
+    {
+      "id": 1,
+      "titulo": "Apoyo Estudiantil",
+      "descripcion": "Apoyar a los estudiantes de escasos recursos económicos para la gestión y creación de becas. (de primaria, básico y diversificado). ",
+      "fotografia": "app/assets/img/proyectos/proyect.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "Equipamiento de Escuelas",
+      "descripcion": "Coordinar acciones con las autoridades educativas del municipio y del departamento para gestionar mobiliario adecuado para todos los niveles. (escritorios, cátedras, sillas, anaqueles y pizarrones).",
+      "fotografia": "app/assets/img/proyectos/proyect.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "Capacitaciones",
+      "descripcion": "Promover Talleres de Capacitación para maestros y para estudiantes de nivel medio y  diversificado, en coordinación con diferentes entidades gubernamentales y no gubernamentales. ",
+      "fotografia": "app/assets/img/proyectos/proyect.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "Mejoras Tecnológicas",
+      "descripcion": "Dotar de Tecnología a los centros educativos del municipio, para así lograr aprendizajes de manera audiovisual a través de aulas interactivas en los centros educativos",
+      "fotografia": "app/assets/img/proyectos/proyect.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "Escuela de Artes",
+      "descripcion": "Implementar ESCUELAS DE ARTES (música, canto y danza), para fortalecer las habilidades y destrezas de los niños y niñas.",
+      "fotografia": "app/assets/img/proyectos/proyect.jpg"
+    }
+  ],
+  "salud": [
+    {
+      "id": 1,
+      "titulo": "Desnutrición Infantil",
+      "descripcion": "Coadyuvar en la erradicación de la DESNUTRICIÓN INFANTIL y promover campañas para dar acompañamiento a las enfermedades crónicas a través de programas de apoyo municipal",
+      "fotografia": "app/assets/img/proyectos/proyect.jpg"
+    }
+  ],
+  "infraestructura": [
+    {
+      "id": 1,
+      "titulo": "Carreteras",
+      "descripcion": "Construcción y/o mejoramiento de carreteras para el fácil acceso a todas las comunidades rurales del municipio, así como las vías principales de la cabecera municipal.",
+      "fotografia": "app/assets/img/proyectos/proyect.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "Cementerios",
+      "descripcion": "Adquisición de terreno y construcción de un cementerio urbanizado (calles, osarios, nichos, entre otros) en la cabecera municipal y en las demás comunidades.",
+      "fotografia": "app/assets/img/proyectos/proyect.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "Cocinas y Comedores Estudiantiles",
+      "descripcion": "Construcción de cocinas y comedores en todos los establecimientos del nivel primario, para brindarle a los niños y niñas un espacio digno para recibir sus alimentos en la entrega de la Alimentación Escolar.",
+      "fotografia": "app/assets/img/proyectos/proyect.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "Oficinas de COCODES",
+      "descripcion": "Construcción y equipamiento de oficinas para los COCODES y las AUXILIATURAS como parte de la administración del municipio.",
+      "fotografia": "app/assets/img/proyectos/proyect.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "Aulas en las Escuelas",
+      "descripcion": "Construcción y/o mejoramiento de aulas en las escuelas para la atención de la demanda educativa del municipio.",
+      "fotografia": "app/assets/img/proyectos/proyect.jpg"
+    },
+    {
+      "id": 6,
+      "titulo": "Salones",
+      "descripcion": "Construcción de salones de usos Múltiples.",
+      "fotografia": "app/assets/img/proyectos/proyect.jpg"
+    },
+    {
+      "id": 7,
+      "titulo": "Alumbrado Público",
+      "descripcion": "Equipamiento con LAMPARAS SOLARES en la cabecera municipal y comunidades para mejorar el alumbrado público.",
+      "fotografia": "app/assets/img/proyectos/proyect.jpg"
+    },
+    {
+      "id": 8,
+      "titulo": "Centros de Salud",
+      "descripcion": "Equipamiento en los Centros de Salud y Centros de Convergencia para la atención de los usuarios.",
+      "fotografia": "app/assets/img/proyectos/proyect.jpg"
+    }
+  ],
+  "desarrollo": [
+    {
+      "id": 1,
+      "titulo": "Producción",
+      "descripcion": "Capacitación y acompañamiento técnico a diferentes grupos laborales, así como a las personas que desarrollan diferentes oficios. En coordinación con instituciones gubernamentales y no gubernamentales (ONG). Y la creación de una Escuela de Oficios.",
+      "fotografia": "app/assets/img/proyectos/proyect.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "Comercialización",
+      "descripcion": "Promover productos de calidad en la comercialización local a través de la coordinación con instituciones gubernamentales. Buscar apoyo en instituciones como FUNDAP, INTECAP, MTC, PMA, entre otros.",
+      "fotografia": "app/assets/img/proyectos/proyect.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "Cooperación",
+      "descripcion": "Promover la organización de los diferentes grupos laborales para mejorar la producción y ventas de productos en materia prima o procesados.",
+      "fotografia": "app/assets/img/proyectos/proyect.jpg"
+    }
+  ],
+  "cultura": [
+    {
+      "id": 1,
+      "titulo": "Casa de la Cultura",
+      "descripcion": "Promover la CASA DE LA CULTURA RODEENSE.",
+      "fotografia": "app/assets/img/proyectos/proyect.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "Equipo Deportivo",
+      "descripcion": "Creación y formación de un equipo representativo del municipio (Tercera división).",
+      "fotografia": "app/assets/img/proyectos/proyect.jpg"
+    }
+  ]
+}
