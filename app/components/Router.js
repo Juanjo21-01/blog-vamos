@@ -14,6 +14,7 @@ export async function Router() {
   if (!hash || hash === '#/') {
     $main.innerHTML = Home();
   } else if (hash === '#/proyectos') {
+    // loca
     await ajax({
       url: api.PROYECTOS,
       cbSuccess: (posts) => {
