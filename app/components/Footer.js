@@ -10,6 +10,8 @@ export function Footer() {
         <li><a href="#/sugerencias" class="p-2 m-1 text-light btn btn-outline-danger btn-primary border-0">Sugerencias</a></li>
     </ul>
     <p class="text-center text-danger">100% RODEENSES &copy;.
+    <br>
+    <a class=" text-primary" href="https://github.com/Juanjo21-01" target="_blank" rel="noopener">Desarrollado por: Juan José López</a> 
     <br>   
     Todos los derechos reservados 2023.
     </p>

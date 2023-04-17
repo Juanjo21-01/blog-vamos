@@ -1,15 +1,13 @@
 import api from '../helpers/api.js';
 import { ajax } from '../helpers/ajax.js';
-import { PlanillaTarjeta } from './main/PlanillaTarjeta.js';
-import { Posts } from './main/Posts.js';
 import { Home } from './main/Home.js';
 import { ProyectoTarjeta } from './main/ProyectoTarjeta.js';
-export async function Router() {
-  const d = document,
-    $main = d.getElementById('main');
+import { PlanillaTarjeta } from './main/PlanillaTarjeta.js';
+import { Posts } from './main/Posts.js';
 
+export async function Router() {
+  const $main = document.getElementById('main');
   let { hash } = location;
-  // console.log(hash);
 
   $main.innerHTML = null;
 
@@ -24,7 +22,6 @@ export async function Router() {
           inf = '',
           des = '',
           cul = '';
-        // console.log(posts);
         posts.educacion.forEach((post) => (edu += ProyectoTarjeta(post)));
         posts.salud.forEach((post) => (sa += ProyectoTarjeta(post)));
         posts.infraestructura.forEach((post) => (inf += ProyectoTarjeta(post)));
@@ -79,7 +76,6 @@ export async function Router() {
   } else if (hash === '#/sugerencias') {
     $main.innerHTML = `<h2>Contenido de las Sugerencias </h2>`;
   } else {
-    $main.innerHTML = `<h2>Informacion de los Posts </h2>`;
     await ajax({
       url: api.PLANILLA,
       cbSuccess: (post) => {
